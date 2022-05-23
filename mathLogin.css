@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+img {
+    height: 40%;
+    width: 20%;
+}
+h1 {
+    color: white;
+}
+input {
+    background: transparent;
+    width: 30%;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-color: white;
+    border: solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px;
+    color: white; 
+}
+input::placeholder {
+    color: white;
+}
+textarea:focus, input:focus {
+    color: white;
+}
+textarea:focus,input:hover {
+    color: white;
+}
+label{
+    color: white;
+    font-size: large;
+}
+#sendUserButton{
+    width: 30%;
+    border-radius: 5000px;
+    box-shadow: 4px 4px 60px;
+    height: 50px;
+}

@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image: url("mathquizbackground.jpg");
+    background-size: cover;
+}
+#scoreBoard {
+    position: relative ;
+    top: 50px;
+    font-size: 2em;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Quicksand',sans-serif;
+    height: 100px;
+}
+.scoreBoardHeading {
+    font-weight: bolder;
+}
+.scoreBoardName,.scoreBoardScore,.scoreBoardHeading {
+    padding: 10px;
+    text-align: center;
+}
+.scoreBoardName, .scoreBoardHeading {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+#player1Name, #player1Score {
+    border-right: 1px solid white;
+}
+
+
+#main {
+    text-align: center;
+    color: white;
+}
+img {
+    height: 200px;
+    width: 250px;
+}
+input {
+    background: transparent;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-color: white;
+    border: solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px;
+    color: white; 
+}
+input::placeholder {
+    color: white;
+}
+textarea:focus, input:focus {
+    color: white;
+}
+textarea:focus,input:hover {
+    color: white;
+}
+#startGameButton {
+    width: 100%;
+    border-radius: 5000px;
+    padding: 10px;
+}
+
+
+#turn {
+    position: relative ;
+    top: 50px;
+    font-size: 2em;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Quicksand',sans-serif;
+    height: 100px;
+}
+.turnHeading {
+    font-weight: bolder;
+}
+#turnHeading {
+    text-align: right;
+}
+.turnLabel,.turns,.turnHeading {
+    padding: 10px;
+    text-align: center;
+}
+.turnLabel,.turnHeading {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+#questionTurnLabel, #questionTurn {
+    border-right: 1px solid white;
+}
+#checkButton {
+    width: 100%;
+    border-radius: 5000px;
+    padding: 10px;
+}
